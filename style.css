@@ -1,0 +1,89 @@
+/* MAIN---------------------------------------------- */
+body {
+    background-color: black;
+    overflow-x: hidden;
+    
+    }
+    
+    /* CONTACT ---------------------------------------------- */
+    
+    /* .mb-3 {
+        color: white;
+    } */
+    
+    .contactMe{
+    
+    display:flex;
+    height: 100vh;
+    background-color: black;
+    align-items: center;
+    
+    
+    }
+    
+    form{
+        background-color: grey;
+        border-radius: 10px;
+        padding: 2em;}
+    
+    button{
+        margin: 1em;
+        color: black;
+     }
+
+     /* About me-------------------------------------------------------------- */
+     
+     .card-mb-3{
+
+        background-color: gray
+     }
+     col-md-4{
+         align-items: center;
+         background-color: gray;
+     }
+     .col-md-8{
+        text-align: center;
+        background-color: gray;
+
+
+
+
+        }
+
+
+
+    /* PROJECTS---------------------------------------------- */
+
+
+    
+    .container {
+        color: white;
+        text-align: center;
+    }
+    
+    .card {
+        
+        background-color: black;
+    }
+   .card-title {
+       color: white;
+   }
+
+   .card-body {
+       color: white;
+   }
+    /* .myProj {
+        width: cover;
+    } */
+    
+    /* .carousel-item img {
+        height: 100vh;
+    }
+     */
+    
+    /* FOOTER------------------------------------------------ */
+    
+    footer{
+        margin-top: 1em;
+        bottom: 0;
+    }
