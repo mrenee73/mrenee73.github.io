@@ -1,20 +1,27 @@
 /* MAIN---------------------------------------------- */
-body {
+body, html {
     background-color: black;
     overflow-x: hidden;
-    
+
+  font-family: 'Roboto', sans-serif;
     }
     
+/* header================================================================================= */
+
+
+.container-fluid {
+
+    margin-bottom: 5rem;
+}
+
+
     /* CONTACT ---------------------------------------------- */
     
-    /* .mb-3 {
-        color: white;
-    } */
-    
+   
     .contactMe{
     
     display:flex;
-    height: 100vh;
+    height: 75vh;
     background-color: black;
     align-items: center;
     
@@ -23,44 +30,73 @@ body {
     
     form{
         background-color: grey;
-        border-radius: 10px;
+        border-radius: 25px;
         padding: 2em;}
     
-    button{
+    .button{
         margin: 1em;
-        color: black;
-     }
+        border-radius: 20px;;
+             }
 
      /* About me-------------------------------------------------------------- */
-     
+
+
+     /* .card-body1{ 
+         color: black;;
+     } */
+
+
      .card-mb-3{
 
-        background-color: gray
-     }
-     col-md-4{
-         align-items: center;
-         background-color: gray;
-     }
-     .col-md-8{
         text-align: center;
         background-color: gray;
+     }
 
+     col-md-4{ 
+         align-items: center;
+         background-color: gray;
+       
+     }
+     .col-md-8{
+       background-image: url("./assets/branches.jpg") ;
 
-
-
-        }
+       color: white;
+      
+       }
 
 
 
     /* PROJECTS---------------------------------------------- */
 
+.card-img-top {
+  height: 270px;
+  width: 290;;
 
+}
     
+.parallax {
+    /* The image used */
+    background-image: url("./assets/11103078_10153308134380955_1746563010079024117_o.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
     .container {
         color: white;
         text-align: center;
+        padding: 75px;
     }
     
+    .container-sm {
+        size: 50%;
+    }
     .card {
         
         background-color: black;
@@ -83,7 +119,8 @@ body {
     
     /* FOOTER------------------------------------------------ */
     
-    footer{
+    .footer{
         margin-top: 1em;
-        bottom: 0;
-    }
+      
+
+        }
