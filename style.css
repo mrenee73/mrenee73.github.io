@@ -12,102 +12,93 @@ body, html {
 .container-fluid {
 
     margin-bottom: 5rem;
+    /* border: 3px solid white; */
 }
 
 
-    /* CONTACT ---------------------------------------------- */
-    
-   
-    .contactMe{
-    
-    display:flex;
-    height: 75vh;
-    background-color: black;
-    align-items: center;
-    
-    
-    }
-    
-    form{
-        background-color: grey;
-        border-radius: 25px;
-        padding: 2em;}
-    
-    .button{
-        margin: 1em;
-        border-radius: 20px;;
-             }
 
-     /* About me-------------------------------------------------------------- */
+/* About me-------------------------------------------------------------- */
 
 
-     /* .card-body1{ 
-         color: black;;
-     } */
+/* .card-body1{ 
+    color: black;;
+} */
 
 
-     .card-mb-3{
-
+.card-mb-3{
+    border: 3px solid white;
         text-align: center;
         background-color: gray;
-     }
-
-     col-md-4{ 
-         align-items: center;
-         background-color: gray;
-       
-     }
-     .col-md-8{
-       background-image: url("./assets/branches.jpg") ;
-
-       color: white;
-      
-       }
-
-
-
+    }
+    
+    /* .col-md-4{ 
+        align-items: center;
+        background-color: gray;
+        
+    } */
+    .col-md-8{
+        background-image: url("./assets/branches.jpg") ;
+        
+        color: white;
+        
+    }
+    
+    
+    
     /* PROJECTS---------------------------------------------- */
 
-.card-img-top {
-  height: 270px;
-  width: 290;;
+    .projectsection {
 
-}
+        background-color: gray;
+    }
     
-.parallax {
-    /* The image used */
-    background-image: url("./assets/11103078_10153308134380955_1746563010079024117_o.jpg");
-  
-    /* Full height */
-    height: 100%;
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
+    .card-img-top {
+        height: 270px;
+        width: 290;;
+        border: 3px solid white;
+    }
+    
+    .parallax {
+        /* The image used */
+        
+        /* Full height */
+        /* height: 100%;
+        
+        /* background-image: url("./assets/11103078_10153308134380955_1746563010079024117_o.jpg"); */
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; *
+    }
+    
     .container {
         color: white;
         text-align: center;
         padding: 75px;
+        border: 3px solid white;
+        margin-top: 30px;
+        margin-bottom: 30px;
+
     }
     
     .container-sm {
         size: 50%;
+        /* border: 3px solid white; */
     }
     .card {
         
         background-color: black;
     }
-   .card-title {
-       color: white;
-   }
-
-   .card-body {
-       color: white;
-   }
+    .card-title {
+        color: white;
+        /* border: 3px solid white; */
+    }
+    
+    .card-body {
+        color: white;
+        border: 3px solid white;
+    }
     /* .myProj {
         width: cover;
     } */
@@ -115,12 +106,39 @@ body, html {
     /* .carousel-item img {
         height: 100vh;
     }
-     */
+    */
     
+    /* CONTACT ---------------------------------------------- */
+    
+    
+    .contactMe{
+    
+    display:flex;
+    height: 75vh;
+    background-color: black;
+    align-items: center;
+    /* border: 3px solid white; */
+    
+    }
+    
+    form {
+        background-color: grey;
+        /* border-radius: 25px; */
+        padding: 2em;
+        border: 3px solid white;}
+    
+    .button{
+        margin: 3em;
+        border-radius: 25px;;
+             }
+
+
+
     /* FOOTER------------------------------------------------ */
     
     .footer{
         margin-top: 1em;
-      
+      text-align: center;
+    
 
         }
