@@ -1,6 +1,9 @@
 /* MAIN---------------------------------------------- */
 body, html {
-    background-color: black;
+    /* background-color: black; */
+    background-color: #010003;
+    background-image: url("https://www.transparenttextures.com/patterns/cross-stripes.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
     overflow-x: hidden;
 
   font-family: 'Roboto', sans-serif;
@@ -10,7 +13,9 @@ body, html {
 
 
 .container-fluid {
-
+    background-color: #010003;
+    background-image: url("https://www.transparenttextures.com/patterns/cross-stripes.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
     margin-bottom: 5rem;
     /* border: 3px solid white; */
 }
@@ -88,7 +93,9 @@ body, html {
     }
     .card {
         
-        background-color: black;
+        background-color: #010003;
+        background-image: url("https://www.transparenttextures.com/patterns/cross-stripes.png");
+        /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
     }
     .card-title {
         color: white;
@@ -115,7 +122,9 @@ body, html {
     
     display:flex;
     height: 75vh;
-    background-color: black;
+    background-color: #010003;
+background-image: url("https://www.transparenttextures.com/patterns/cross-stripes.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
     align-items: center;
     /* border: 3px solid white; */
     
